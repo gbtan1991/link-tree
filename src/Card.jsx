@@ -6,7 +6,7 @@ import Header from './component/Header'
 const Card = () => {
   return (
     
-    <div className='w-11/12 h-full rounded-[44px] bg-zinc-50'>
+    <div className='w-11/12 sm:w-[375px] h-full rounded-[44px] bg-zinc-50'>
         <div className='h-full w-fullflex flex-col '>
         <Header />
         <NameCard />

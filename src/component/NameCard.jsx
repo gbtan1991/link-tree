@@ -3,11 +3,13 @@ import { PiSealCheckFill } from "react-icons/pi";
 import { CiMail } from "react-icons/ci";
 import { CiFacebook } from "react-icons/ci";
 import { FaThreads } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { AiOutlineYoutube } from "react-icons/ai";
 
 const NameCard = () => {
   const profileDetails = {
     name: "Gilbert Tan",
-    userName: "@gbTan",
+    userName: "@gbtan1991",
     profilePhoto: "./profile.jpg",
   };
 
@@ -29,10 +31,12 @@ const NameCard = () => {
       </div>
       <h2 className="text-base font-theme font-medium">{profileDetails.userName}</h2>
 
-      <div>
-      <CiMail />
-      <CiFacebook />
-      <FaThreads />
+      <div className="my-2 flex gap-2 text-2xl text-zinc-600 ">
+      <a href="#"><CiMail className="hover:text-blue-900 hover:transform transition-transform duration-100 ease-in-out hover:scale-150 hover:ease-linear"/></a>
+      <a href="#"><CiFacebook className="hover:text-blue-900 hover:transform transition-transform duration-100 ease-in-out hover:scale-150 hover:ease-linear"/></a>
+      <a href="#"><FaThreads className="hover:text-blue-900 hover:transform transition-transform duration-100 ease-in-out hover:scale-150 hover:ease-linear"/></a>
+      <a href="#"><FaInstagram className="hover:text-blue-900 hover:transform transition-transform duration-100 ease-in-out hover:scale-150 hover:ease-linear"/></a>
+      <a href="#"><AiOutlineYoutube className="hover:text-blue-900 hover:transform transition-transform duration-100 ease-in-out hover:scale-150 hover:ease-linear"/></a>
       
       </div>
     </div>
