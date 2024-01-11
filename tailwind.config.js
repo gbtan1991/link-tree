@@ -8,7 +8,13 @@ export default {
     extend: {
       fontFamily: {
         theme: "Inter, sans-serif"
+      },
+      boxShadow: {
+        retro: '3px 3px hsl(240, 4%, 38%)'
+
       }
+
+
 
     },
   },

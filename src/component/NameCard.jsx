@@ -23,7 +23,7 @@ const NameCard = () => {
   return (
     <div className=" w-full flex flex-col items-center justify-center">
       <div
-        className="w-28 h-28 bg-white rounded-full border border-zinc-500"
+        className="w-28 h-28 rounded-full border border-zinc-500"
         style={profilePhotoStyle}
       ></div>
       <div className="flex items-center"><h1 className="text-xl font-theme font-bold">{profileDetails.name}</h1>
